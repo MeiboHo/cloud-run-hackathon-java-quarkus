@@ -52,7 +52,7 @@ public class App {
         //return commands[0];
         
         int oldScore = 0;
-        commands[3];
+        return commands[3];
         if (score > oldScore){
             for(int i=0; i<3;i++){
             return commands[3];
