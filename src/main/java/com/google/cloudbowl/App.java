@@ -50,7 +50,6 @@ public class App {
         String[] commands = new String[]{"F", "R", "L", "T"}
 
         int oldScore = 0;
-        commands[3];
         if (score > oldScore){
             oldScore=score;
             return commands[3];
