@@ -48,6 +48,13 @@ public class App {
         System.out.println(arenaUpdate);
         String[] commands = new String[]{"F", "R", "L", "T"};
         int i = new Random().nextInt(4);
+        if(wasHit=true){
+            commands[1];
+            for (int i = 0; i < 3; i++) {
+                 commands[0];
+                }
+        }
+        
         return commands[i];
     }
 
