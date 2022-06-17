@@ -55,7 +55,7 @@ public class App {
                 }
         }
         
-        return commands[i];
+       else{ return commands[i];}
     }
 
 }
