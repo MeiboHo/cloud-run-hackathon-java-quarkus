@@ -49,8 +49,20 @@ public class App {
         System.out.println(arenaUpdate);
         String[] commands = new String[]{"F", "R", "L", "T"};
         //int i = new Random().nextInt(4);
-        return commands[0];
-                
+        //return commands[0];
+        
+        int oldScore = 0;
+        commands[3];
+        if (score > oldScore){
+            for(int i=0; i<3;i++){
+            return commands[3];
+            }
+        }
+        else if (score == oldScore){
+            return commands[1];
+        }
+            
+        //retrun commands[];
     }
 
 }
