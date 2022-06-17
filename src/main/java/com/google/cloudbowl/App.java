@@ -42,23 +42,14 @@ public class App {
     }
    
 
-    @POST
+   @POST
     @Produces(MediaType.TEXT_PLAIN)
     @Consumes(MediaType.APPLICATION_JSON)
     public String index(ArenaUpdate arenaUpdate) {
         System.out.println(arenaUpdate);
-        String[] commands = new String[]{"F", "R", "L", "T"}
-
-        int oldScore = 0;
-        if (score > oldScore){
-            oldScore=score;
-            return commands[3];
-            
-        }
-        else if (score == oldScore){
-            return commands[1];
-        }
-
+        String[] commands = new String[]{"F", "R", "L", "T"};
+        int i = new Random().nextInt(4);
+        return commands[i];
     }
 
 }
