@@ -47,15 +47,19 @@ public class App {
     public String index(ArenaUpdate arenaUpdate) {
         System.out.println(arenaUpdate);
         String[] commands = new String[]{"F", "R", "L", "T"};
-        int i = new Random().nextInt(4);
+        //int i = new Random().nextInt(4);
         if(wasHit=true){
             commands[1];
             for (int i = 0; i < 3; i++) {
                  commands[0];
+                if (i == 2){
+                    return commands[i];
                 }
+                }
+            
         }
         
-       else{ return commands[i];}
+      // else{ return commands[i];}
     }
 
 }
